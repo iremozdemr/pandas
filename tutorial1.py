@@ -4,6 +4,10 @@ import pandas as pd
 #-flexibility of python
 #-working with big data
 
+#pandas = panel data = python data analysis
+
+#analyzing cleaning exploring manipulating data
+
 df = pd.read_csv("pokemon-data.csv")
 
 #print(df)
