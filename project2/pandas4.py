@@ -16,17 +16,17 @@ df.drop(1,axis=0).head()
 #1. indeks silinir
 #kalıcı olarak silinmez
 
-delete_indexes = [1,3,5]
-df.drop(delete_indexes,axis=0).head()
+delete_list = [1,3,5]
+df.drop(delete_list,axis=0).head()
 #listedeki indeksler silinir
 #kalıcı olarak silinmez
 
-delete_indexes = [2,4,6]
-df = df.drop(delete_indexes,axis=0)
+delete_list = [2,4,6]
+df = df.drop(delete_list,axis=0)
 #kalıcı olarak silinir
 
-delete_indexes = [3,5,7]
-df = df.drop(delete_indexes,axis=0,inplace=True)
+delete_list = [3,5,7]
+df = df.drop(delete_list,axis=0,inplace=True)
 #kalıcı olarak silinir
 
 #değişkeni indekse çevirme:
